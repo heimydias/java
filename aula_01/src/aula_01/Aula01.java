@@ -31,8 +31,7 @@ public class Aula01 {
 		
 		System.out.println("Nome: " + nome);
 		
-		
-		
+		leia.close();		
 
 	}
 
