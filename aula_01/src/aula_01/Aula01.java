@@ -25,7 +25,13 @@ public class Aula01 {
 		System.out.println("Soma: " + (numero1 + numero2));
 		System.out.println("Subtração: " + (numero1 - numero2));
 		System.out.println("Multiplicação: " + (numero1 * numero2));
-		System.out.println("Divisão: " + (numero1 / numero2));
+		
+		if (numero2 != 0 ) {
+			System.out.println("Divisão: " + (numero1 / numero2));	
+		}else {
+			System.out.println("Não existe divisão por zero!");
+		}
+		
 		System.out.println("Potência: " + (Math.pow(numero1, numero2)));
 		System.out.println("Raíz Quadrada: " + (Math.sqrt(numero1)));
 		
