@@ -5,16 +5,14 @@ public class Clienteex01 {
 	//atributos
     private String nome;
     private int idade;
-    private String sexo;
     private String cidade;
     private String telefone;
 
 
     //metodo
-    public Clienteex01(String nome, int idade, String sexo, String cidade, String telefone) {
+    public Clienteex01(String nome, int idade, String cidade, String telefone) {
         this.nome = nome;
         this.idade = idade;
-        this.sexo = sexo;
         this.cidade = cidade;
         this.telefone = telefone;
     }
@@ -39,17 +37,7 @@ public class Clienteex01 {
     	this.idade = idade;
 }
 
-
-    public String getSexo() {
-    	return sexo;
-}
-
-
-    public void setSexo(String sexo) {
-    	this.sexo = sexo;
-}
-
-
+    
     public String getCidade() {
     	return cidade;
 }
@@ -72,9 +60,9 @@ public class Clienteex01 {
     public void visualizar() {
     	System.out.println("Nome: " + this.nome);
     	System.out.println("Idade: " + this.idade);
-    	System.out.println("sexo: " + this.sexo);
     	System.out.println("Cidade: " + this.cidade);
     	System.out.println("Telefone: " + this.telefone);
+    	System.out.println();
 }
 }
 

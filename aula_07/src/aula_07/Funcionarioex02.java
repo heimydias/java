@@ -76,6 +76,7 @@ public class Funcionarioex02 {
     	System.out.println("Departamento: " + this.departamento);
     	System.out.println("Funcao: " + this.funcao);
     	System.out.println("Salario: " + this.salario);
+    	System.out.println();
 }
 
 }
